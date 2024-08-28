@@ -1,0 +1,44 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem auto; /* Center the main container horizontally and vertically */
+    padding: 2rem; /* Padding for spacing */
+    background-color: #f0f0f0; /* Slightly greyish background color */
+    max-width: 95%; /* Limit width to ensure responsiveness */
+    border-radius: 8px; /* Optional: Rounded corners for aesthetic */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow for depth */
+}
+
+
+.data-grid-wrapper {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%; /* Full width of its container */
+}
+
+.card {
+    width: 100%; /* Full width of its container */
+    max-width: 600px; /* Maximum width for larger screens */
+    margin: 1rem 0; /* Margin around the card */
+    padding: 1rem; /* Padding inside the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow for depth */
+    background-color: #ffffff; /* White background for card */
+}
+
+.card-content {
+    padding: 1rem; /* Padding inside the card content */
+}
+
+.typography-header {
+    font-size: 1.5rem; /* Header font size */
+    margin-bottom: 1rem; /* Space below the header */
+}
+
+.typography-body {
+    font-size: 1rem; /* Body font size */
+    margin: 0.5rem 0; /* Space around each item */
+}

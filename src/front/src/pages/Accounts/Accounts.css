@@ -1,0 +1,17 @@
+.main-container {
+    margin: 0 auto; /* Center horizontally */
+    background-color: #f0f0f0; /* Slightly greyish background color */
+    padding: 2rem; /* Padding for spacing */
+    border-radius: 8px; /* Optional: Rounded corners for aesthetic */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow for depth */
+    max-width: 90%; /* Limit width to ensure responsiveness */
+}
+
+.data-grid-wrapper {
+    width: 100%; /* Full width of its container */
+    height: auto; /* Auto height to maintain responsiveness */
+    min-height: 300px; /* Optional: Minimum height for usability */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
